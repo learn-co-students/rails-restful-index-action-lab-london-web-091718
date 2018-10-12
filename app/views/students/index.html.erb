@@ -1,0 +1,7 @@
+<h1> Student List </h1>
+
+<div>
+<ul><% @students.each {|s| %>
+<li> <%= s.to_s %> </li>
+</ul><% } %>
+</div>
